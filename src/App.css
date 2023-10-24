@@ -1,0 +1,274 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Style for gallery phottos container */
+
+.div_gallery{
+  
+  width: 880px;
+  height: 100%;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  /* background-color: aliceblue; */
+  padding: 12px;
+  
+}
+
+.div_inner{
+  /* background-color: antiquewhite; */
+  padding: 4px;
+  text-align: center;
+}
+
+.div_inner:hover{
+  background-color: #888;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* App.css */
+
+/* App.css */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+/* Modal CSS */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: fit-content;
+  max-width: 90%;
+  height: 800px;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.modal-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #888;
+}
+
+.open-modal-button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.open-modal-button:hover {
+  background-color: #0056b3;
+}
+
+.modal-button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.modal-button:hover {
+  background-color: #0056b3;
+}
+
+/* CSS for contents inside modal */
+
+.main_profile_section{
+  display: flex;
+  gap: 10px;
+}
+
+.mainp_image{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.main_name{
+  margin: 1px;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.main_username{
+  margin: 1px;
+  font-weight: bold;
+  color: gray;
+  font-style: italic;
+}
+
+.twitter{
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: gray;
+  font-style: italic;
+}
+
+.instagram{
+  margin-top: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: gray;
+  font-style: italic;
+}
+
+.main_names{
+  margin-top: 10px;
+}
+
+.desc{
+  text-align: left;
+  font-size: large;
+  font-weight: bold;
+  color: #888;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Gallery Photos Styles */
+
+.p_image{
+  border-radius: 50%;
+  width: 60px;
+  height: auto;
+}
+
+.profile_section{
+  display: flex;
+  gap: 5px;
+}
+
+.name{
+  margin: 1px;
+}
+
+.user_name{
+  margin: 1px;
+}
+
+.names{
+  gap: 1px;
+  margin: auto;
+}
+
+.likes{
+  text-align: left;
+}
+
+
+/* Serch Bar */
+
+.search{
+  margin-left: 770px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  
+}
+
+input{
+  height: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.pagi-container{
+  display: flex;
+  gap: 20px;
+  margin-left: 780px;
+  border: black solid;
+  padding: 10px;
+  width: 18%;
+  border-width: 1px;
+}
+
+.pagi-number{
+  height: 40px;
+  width: 40px;
+  font-size: 30px;
+  text-align: center;
+  padding: 8px;
+  border: black solid;
+  border-width: 1px;
+}
+
+.pagi-number:hover{
+    background-color: #282c34;
+    cursor: pointer;
+    color: #fff;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
